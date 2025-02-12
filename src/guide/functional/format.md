@@ -46,9 +46,9 @@ lunisolar('2022/07/18 14:40').format('[Year:]YYYY') // 'Year:2022'
 | cD  | 甲子 | 八字日柱 |
 | cDs  | 甲 | 八字日柱天干 |
 | cDb  | 子 | 八字日柱地支 |
-| cH | 甲子 | 八字日柱 |
-| cHs  | 甲 | 八字日柱天干 |
-| cHb  | 子 | 八字日柱地支 |
+| cH | 甲子 | 八字时柱 |
+| cHs  | 甲 | 八字时柱天干 |
+| cHb  | 子 | 八字时柱地支 |
 | cYn  <Badge type="warn" vertical="middle" text=">= v2.4.0"/> | 0 - 59 | 八字年柱干支序号 (比`cY` 多个 `n`，凡干支相关的，想取序号，在后补个`n`即可) |
 | cYsn <Badge type="warn" vertical="middle" text=">= v2.4.0"/> | 0 - 9 | 八字年柱天干序号 (比`cYs` 多个 `n`) |
 | cYbn <Badge type="warn" vertical="middle" text=">= v2.4.0"/> | 0 - 11 | 八字年柱地支序号 (比`cYb` 多个 `n`) |
